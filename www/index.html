@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Other meta tags and stylesheets -->
+
+    <!-- Include jQuery from CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Include Popper.js from CDN -->
+ 
+    <!-- Bootstrap core CSS and JavaScript -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/myludo.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Your custom JavaScript -->
+    <script src="js/myludo.js" ></script>
+    <script src="js/myludo.js", src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+
+    <!--navybox-->
+   
+        <div class="navybox">
+      <ul>
+            <li><a href="#">Αρχικη</a></li>
+            <li><a href="#">Προφιλ</a></li>
+            <li><a href="#">Παιχνιδι</a></li>
+            <li><a href="./nodejs/package.json">Login</a></li>
+             <ul id="playerData"><a>Score:</a>&nbsp;
+              <li id="Score"><a>1950</a></li>
+             </ul>
+         </ul>
+        </div>
+
+         <!--finish navybox-->
+
+        <div id="h1Name"><h1 id="name">γκρινιαρης</h1></div>
+        <div id='ludo_board'></div>
+        <div id="gameButton">
+            <button id='ludo_reset' class='btn btn-primary'>Restart</button><br><!--το κουμπι reset board βημα 1-->
+            <button id='ludo_roll' class='btn btn-primary'>ΡΙΞΕ ΖΑΡΙ</button><br>
+            <div id='game_initializer'>
+                <input id='username'> 
+                <select id='pcolor'>
+                <option value='R'>R</option>
+                <option value='B'>B</option>
+                <option value='G'>G</option>
+                <option value='Y'>Y</option>
+                </select>
+                
+                <button id='ludo_login' class='btn btn-primary'>ΕΙΣΟΔΟΣ ΣΤΟ ΠΑΙΧΝΙΔΙ</button><br>
+                </div>              
+                <div id='game_info'>
+                </div>
+                
+        </div>
+
+
+        <script src="js/myludo.js"></script>
+</body>
+
+
+
+ </html>
