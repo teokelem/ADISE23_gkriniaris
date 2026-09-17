@@ -1,0 +1,24 @@
+#ludo_board td{width:30px; height:30px; border: solid black 1px; text-align:center;}
+
+#ludo_board{border-collapse: collapse;}
+
+td.W_square{background-color: white;}
+td.R_square {background-color: red;}
+td.G_square {background-color:greenyellow;}
+td.B_square{background-color: blue;}
+td.Y_square{background-color: yellow;}
+
+ 
+  td.GR_square{background:linear-gradient(to bottom right, red  50%,greenyellow  50%);  } 
+ td.RY_square{background:linear-gradient(to bottom left, yellow 50%, red 50%);}
+ td.BY_square{background:linear-gradient(to bottom right, yellow 50%, blue 50%);}
+ td.GB_square{background:linear-gradient(to bottom left, blue 50%, greenyellow 50%);}
+ td.MIX_square{ 
+    border-left-color:    cyan;
+    border-right: 20px solid red;
+    border-bottom: 20px solid green;
+    border-top: 20px solid blue;
+ display: inline;
+}
+
+ IMG.piece{width: 2.1em; height: 2.1em;}
