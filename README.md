@@ -1,6 +1,6 @@
 # ADISE23_gkriniaris
 Ανάπτυξη Διαδικτυακών Συστημάτων και Εφαρμογών ,Μέλος: 2019068
-Table of Contents
+
 Table of Contents
 =================
    * Εγκατάσταση
